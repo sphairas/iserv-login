@@ -26,7 +26,7 @@ import org.apache.commons.net.imap.IMAPSClient;
  */
 public class IservRealm extends AppservRealm {
 
-    static final String[] GROUPS = {"signees"}; //, "unitadmins"};
+    static final String[] GROUPS = {"signees"};
     private String host;
     private int port;
     private String endpoints;

@@ -11,10 +11,8 @@ package org.thespheres.betula.security.iservlogin;
  */
 public interface IservLogin {
 
-    public static final long serialVersionUID = 1L;
+    public static final long serialVersionUID = 2L;
 
     public String[] getGroups(String prefix, String suffix);
-
-    public String[] getGroups(String ldapName);
 
 }

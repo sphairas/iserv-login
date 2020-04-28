@@ -12,6 +12,5 @@ package org.thespheres.betula.security.iservlogin;
 class Constants {
 
     final static String LOGIN_BEAN_NAME = "java:global/Betula_Server/Betula_Persistence/IservLoginImpl!org.thespheres.betula.security.iservlogin.IservLogin";
-    final static String SYSTEMPROP_AUTHENTICATE_UNKNOWN_TRUSTED_X500PRINCIPALS = "betula.security.x500login.authenticate.unknown.principals";
     
 }
